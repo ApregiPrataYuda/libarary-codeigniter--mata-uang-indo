@@ -4,3 +4,7 @@ function indo_currency($nominal)
    return  $result;
    //return 'Rp. ' . number_format($nominal, 0, ",", ".");
 }
+
+
+//call at views data
+indo_currency($name_your_loop->price)
